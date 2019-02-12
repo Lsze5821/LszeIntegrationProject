@@ -31,7 +31,7 @@ public class Main {
     return Math.PI * rad * rad;//returns
 
   
-    Bicycle myBike = new Bicycle();//recomit
+    Bicycle myBike = new Bicycle();//
     myBike.setSpeed(5);
     System.out.println(myBike.getSpeed());
   }
