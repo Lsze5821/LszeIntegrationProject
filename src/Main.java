@@ -19,35 +19,40 @@ public class Main {
     // Char - a single 16 bit unicode character, with a minimum value of '\u0000'(0) and a max value
     // of '\uffff' (65,535)
     
-
-    double radius = 5.0;
-    double area;
-    area = calculateArea(radius);
-    System.out.println("The area is " + area);
-  }
-
+    Card myCard= new Card();
+    myCard.setSuit("Clubs");
+    System.out.println(myCard.getSuit());
+    myCard.draw();
+    System.out.println(myCard.getSuit());
   
-  public static double calculateArea(double rad) {
-    return Math.PI * rad * rad;//returns
-
-  
-    Bicycle myBike = new Bicycle();//
-    myBike.setSpeed(5);
-    System.out.println(myBike.getSpeed());
-  }
-}
-    // this is a set method 
-class Bicycle {
-    private int speed;
-    private int cadence;
-    
-    public int getSpeed() {
-        return speed;
-    }
-    //this is a get method
-    public void setSpeed(int s) {
-        speed = s;
-    }
+//    double radius = 5.0;
+//    double area;
+//    area = calculateArea(radius);
+//    System.out.println("The area is " + area);
+//  }
+//
+//  
+//  public static double calculateArea(double rad) {
+//    return Math.PI * rad * rad;//returns
+//
+//  
+//    Bicycle myBike = new Bicycle();//
+//    myBike.setSpeed(5);
+//    System.out.println(myBike.getSpeed());
+//  }
+//}
+//    // this is a set method 
+//class Bicycle {
+//    private int speed;
+//    private int cadence;
+//    
+//    public int getSpeed() {
+//        return speed;
+//    }
+//    //this is a get method
+//    public void setSpeed(int s) {
+//        speed = s;
+//    }
 
     
 //    double num1 = 5;
