@@ -13,6 +13,7 @@ Define (in English) the term "scope" as it relates to computer programming in a 
 Use final with a variable and describe what it means in a comment
 Use casting and describe what it means in a comment
 Format strings using escape sequences
+
 PSI 2
 Create a method with arguments and return values
 Identify a method call and argument in comments
