@@ -61,7 +61,7 @@ public class Tests1 {
           case 70:
             System.out.println("C");
             break;
-          default:
+          default:// anything else thats not A B or C gets switched to default
             System.out.println("D");
             break;
 
