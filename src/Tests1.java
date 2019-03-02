@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Tests1 {
   public static void main(String args[]) {
@@ -33,6 +34,16 @@ public class Tests1 {
     System.out.println(Math.max(3.141592653589793, slice));// output the larger value, slice or PI
                                                            // using math class.
     scanner.close();
+    
+   
+      // create random object, only do this once
+      Random randomGen = new Random();
+        int number;
+      
+      for(int counter =1; counter<=6; counter++){
+        number = 1+randomGen.nextInt(53);
+        System.out.println(number);
+      }
   }
 
 
