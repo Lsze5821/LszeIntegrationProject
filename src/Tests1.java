@@ -31,7 +31,7 @@ public class Tests1 {
     System.out.println("you which is larger, the number entered, or PI");
     double slice = scan.nextDouble();
     System.out.println(Math.max(3.141592653589793, slice));// output the larger value, slice or PI
-                                                           // using math class
+                                                           // using math class.
     scanner.close();
   }
 
