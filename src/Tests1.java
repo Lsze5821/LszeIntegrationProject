@@ -21,7 +21,7 @@ public class Tests1 {
       System.out.println("Not Weird");
     } else if (6 <= N && N <= 20 && N % 2 == 0) {//even statement using divisible by 2 is equal to 0
       System.out.println("Weird");
-    } else if (N % 2 == 1) {
+    } else if (N % 2 == 1) {//odd statement using divisible by 2 equal to 1
       System.out.println("Weird");
     }
 
