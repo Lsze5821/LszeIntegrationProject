@@ -5,7 +5,7 @@ public class Card {
   private int number;
   
   public String getSuit() {
-    return number;
+    return suit;
   }
   public void setSuit(String suiteToBeSet) {
     suit = suiteToBeSet;
@@ -26,6 +26,7 @@ public class Card {
       
     }
     number = Math.abs(randomGen.nextInt()%13);//could be random
+  
     
  
   }
