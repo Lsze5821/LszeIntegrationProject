@@ -57,7 +57,7 @@ public class Tests1 {
             break;//break after the condition as met
           case 80:
             System.out.println("B");
-            break;//stops the code after it hits this part
+            break;//breaks after the condition as met
           case 70:
             System.out.println("C");
             break;
